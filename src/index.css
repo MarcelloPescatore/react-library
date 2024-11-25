@@ -7,6 +7,7 @@
 :root {
   --react-library-dark: black;
   --react-library-light: white;
+  --react-library-accent: rgb(34, 76, 245);
 }
 
 body{
@@ -26,7 +27,13 @@ header{
       text-decoration: none;
       color: var(--react-library-light);
       padding: 0.5rem;
+      
+      &.active{
+        color: var(--react-library-accent);
+        
+      }
     }
+
   }
 }
 
