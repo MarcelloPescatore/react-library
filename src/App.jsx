@@ -3,7 +3,7 @@ import Home from './pages/Home.jsx'
 import Books from './pages/Books.jsx'
 import About from './pages/About.jsx'
 import Contacts from './pages/Contacts.jsx'
-import DefaultLayout from "./components/DefaultLayout.jsx"
+import DefaultLayout from "./pages/DefaultLayout.jsx"
 
 function App() {
 
