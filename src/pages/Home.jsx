@@ -1,22 +1,8 @@
-import MainMenu from "../components/MainMenu";
-
 export default function Home() {
     return (
         <>
-            <header>
-                <div className="logo">
-                    LOGO
-                </div>
-                <MainMenu/>
-            </header>
-
-            <main>
-                <h1>Home Page</h1>
-            </main>
-
-            <footer>
-                <p>copyright 2024</p>
-            </footer>
+            <h1>Home Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium incidunt, eaque suscipit maxime veritatis amet, nihil eveniet temporibus repudiandae, facilis fuga facere ratione quo ut iste veniam mollitia hic tempore!</p>
         </>
     )
 }
